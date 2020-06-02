@@ -1,10 +1,8 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# lib_ext_greenhouse.py
 
-"""
-author: Thomas Kaulke, kaulketh@gmail.com
-"""
+__author__ = "Thomas Kaulke"
+__email__ = "kaulketh@gmail.com"
 
 from .access import token, thk
 from .lib_global import line_break, commit_id, bot_dir, bot_backup

@@ -1,11 +1,10 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# greenhouse_config.py
+# configs, command strings and constants
 
-"""
-configs, command strings and constants
-author: Thomas Kaulke, kaulketh@gmail.com
-"""
+__author__ = "Thomas Kaulke"
+__email__ = "kaulketh@gmail.com"
+
 import access as access
 from lib_global import language_index
 """
@@ -69,14 +68,14 @@ ALL = (RELAY_01, RELAY_02, RELAY_03, RELAY_04, RELAY_05, RELAY_06, RELAY_07, REL
 live = access.live
 
 # command to run extended bot
-run_extended_greenhouse = 'sudo python /home/pi/scripts/TelegramBot/ext_greenhouse.py '
+run_extended_greenhouse = 'sudo python /home/pi/greenhouse/ext_greenhouse.py '
 
 # camera commands
 enable_camera = 'sudo service motion start & '
 disable_camera = 'sudo service motion stop && sudo rm -rf /home/pi/Monitor/* &'
 
 # gpio check
-run_gpio_check = 'sudo python /home/pi/scripts/TelegramBot/gpio_check.py '
+run_gpio_check = 'sudo python /home/pi/greenhouse/gpio_check.py '
 
 # heat dissipation, temperature monitoring, fan control
 temperature_warn = 75

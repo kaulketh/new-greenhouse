@@ -1,13 +1,12 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# lib_global.py
-"""
-author: Thomas Kaulke, kaulketh@gmail.com
-"""
+
+__author__ = "Thomas Kaulke"
+__email__ = "kaulketh@gmail.com"
 
 import sys
 
-application_name = 'GREENHOUSE'
+application_name = 'NEW GREENHOUSE'
 
 empty = ''
 space = ' '
@@ -32,18 +31,14 @@ time_units_sign = ('s', 'm', 'h')
 time_conversion = time_units_conversion[time_units_index]
 
 file_paths = {
-        'file_log_greenhouse': '/greenhouse.log',
-        'file_log_debug': '/greenhouse_console.log',
         'file_log_update': '/update_bot.log',
         'latest_release': '/greenhouseLatestRelease.id',
         'commit_id': '/greenhouseRepoCommit.id',
         'cloned_branch': '/greenhouseRepoBranch.name',
-        'bot_dir': '/home/pi/scripts/TelegramBot/',
+        'bot_dir': '/home/pi/greenhouse/',
         'bot_backup': '/home/pi/backups/greenhouse.tgz'
     }
 
-file_log_greenhouse = file_paths['file_log_greenhouse']
-file_log_debug = file_paths['file_log_debug']
 file_log_update = file_paths['file_log_update']
 latest_release = file_paths['latest_release']
 commit_id = file_paths['commit_id']

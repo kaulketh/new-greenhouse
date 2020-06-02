@@ -1,15 +1,13 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# greenhouse.py
+# main script for greenhouse bot
+# using telegram.ext as Python framework for Telegram Bot API
 
-"""
- main script for greenhouse bot
- using telegram.ext as Python framework for Telegram Bot API
- https://core.telegram.org/api#bot-api
- original: author: Stefan Weigert  http://www.stefan-weigert.de/php_loader/raspi.php
- adapted: Thomas Kaulke, kaulketh@gmail.com
-"""
 from __future__ import absolute_import
+
+__author__ = "Thomas Kaulke"
+__email__ = "kaulketh@gmail.com"
+
 import threading
 import os
 import time

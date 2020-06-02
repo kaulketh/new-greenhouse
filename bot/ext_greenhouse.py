@@ -1,14 +1,13 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# ext_greenhouse.py
-"""
-script for "panic" mode - extended bot
-using telepot as Python framework for Telegram Bot API
-https://telepot.readthedocs.io/en/latest/reference.html
-author: Thomas Kaulke, kaulketh@gmail.com
-"""
+# script for "panic" mode - extended bot
+# using telepot as Python framework for Telegram Bot API
 
 from __future__ import absolute_import
+
+__author__ = "Thomas Kaulke"
+__email__ = "kaulketh@gmail.com"
+
 import conf.greenhouse_config as conf
 import conf.lib_ext_greenhouse as lib
 import utils.utils as utils

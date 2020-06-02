@@ -1,9 +1,8 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# lib_german.py
-"""
-author: Thomas Kaulke, kaulketh@gmail.com
-"""
+
+__author__ = "Thomas Kaulke"
+__email__ = "kaulketh@gmail.com"
 
 import lib_global as global_lib
 
