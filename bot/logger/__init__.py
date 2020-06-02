@@ -1,7 +1,9 @@
-# logger.__init__py
-"""
-author: Thomas Kaulke, kaulketh@gmail.com
-"""
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+__author__ = "Thomas Kaulke"
+__email__ = "kaulketh@gmail.com"
+
 from .logger import get_logger
-from .logger import logging
-logging.getLogger(__name__).addHandler(logging.NullHandler())
+
+LOGGER = get_logger()
